@@ -1,0 +1,15 @@
+[package]
+name = "CulturalexchangelearningDAO"
+version = "1.0.0"
+authors = []
+
+[addresses]
+CulturalExchange = "0x707e10afa8f1e424f07a44e2a3f2309625c83694d002ff6d61fa6c6990f58873"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
